@@ -1,0 +1,162 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: rgb(88, 86, 86);
+}
+
+.big-heading {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.feature-tittle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Nav Bar  */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: medium;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: light;
+}
+
+/* Download Buttons  */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* tittle image  */
+
+.tittle-image {
+    height: 100%;   
+    transform: rotate(25deg);
+    position: absolute;        
+}
+
+/* tittle section  */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    background-color: #ff4c68;
+    color: #ffff;    
+    text-align: left;
+}
+/* feauture section  */
+#features {
+    padding: 7% 0;
+    background-color: #ffff;
+    position: relative;
+       
+}
+
+.change-color {
+    margin: 1rem;
+    color: #ff4c68;
+}
+
+.change-color:hover {
+    color: rgb(241, 154, 154);
+}
+
+/* testimonial section  */
+#testimonials {    
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section  */
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;    
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section  */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Last section  */
+
+#cta {
+    background-color: #ff4c68;  
+    line-height: 1.5;
+    color: #ffff;    
+}
+
+/* footer area  */
+.fa {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1036px) {
+    #title {
+        text-align: center;    
+    }
+  
+    .tittle-image {
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
+
